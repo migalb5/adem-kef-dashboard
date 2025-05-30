@@ -18,7 +18,7 @@ filterByYearMonth <- selectInput(
   choices = c(1,2,3)
 )
 
-filterReferenceYearMonth <- selectInput(
+filterByReferenceYearMonth <- selectInput(
   inputId = "compare_date",
   label = "Choose a year/month as reference (to compare with):",
   choices = c(1,2,3,4)

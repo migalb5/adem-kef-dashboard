@@ -1,5 +1,5 @@
 
-run_data_pp <- function () {
+data_pp <- function () {
   db_conn <- connect_db()
 
   df_trf <- extract_transform_table("student_miguel.kef_de_metier")
